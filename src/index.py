@@ -223,7 +223,7 @@ class programLauncher(QWidget):
     
     def open_winecfg(self):
         process = QProcess(self)
-        process.start("sudo winecfg")
+        process.start("winecfg")
         self.log("Opened Winecfg")
 
 if __name__ == "__main__":
